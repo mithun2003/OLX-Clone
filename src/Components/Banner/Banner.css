@@ -1,0 +1,59 @@
+.bannerParentDiv {
+    padding-top: 4em;
+  } 
+  
+  .bannerParentDiv .bannerChildDiv .menuBar {
+    display: flex;
+    padding: 10px 16px 10px 16px;
+  }
+  
+  
+  
+  .bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
+    margin-right: 16px;
+    font-weight: bolder;
+  }
+  
+  
+  .bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
+    padding: 10px;
+  }
+  
+  .bannerChildDiv .banner {
+    position: relative;
+    width: 100vw;
+  }
+  .bannerChildDiv .banner {
+    background-image: url('https://statics.olx.in/olxin/banners/hero_bg_in_v4@1x.png');
+    width: 100%;
+    height:112px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .bannerChildDiv .banner {
+        background-image: url('https://statics.olx.in/olxin/banners/hero_bg_in_v4@1x.png');
+        width: 31rem;
+        height:112px;
+      }
+  }
+  @media only screen and (max-width: 700px) {
+    .otherQuickOptions {
+      display: none;
+    }
+    .bannerChildDiv .banner {
+      position: relative;
+    }
+  }
+  
+  .otherQuickOptions span{
+    cursor: pointer;
+    
+  }
+
+  .categories{
+    border: none;
+    font-weight: bold;
+    color: #212529;
+    width: 10rem;
+}
+  
